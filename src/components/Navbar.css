@@ -1,0 +1,90 @@
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar-icon {
+  font-size: 1.75rem;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #92400e;
+}
+.text-brown {
+  color: #92400e !important;
+}
+
+.navbar-links {
+  display: none;
+}
+
+.btn1 {
+  background-color: #d97706;
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn1:hover {
+  background-color: #b45309;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .navbar-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .navbar-links a {
+    font-weight: 500;
+    color: #92400e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .navbar-links a:hover {
+    color: #78350f;
+  }
+}
+
+.navbar-button {
+  background-color: #d97706;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-button:hover {
+  background-color: #b45309;
+}

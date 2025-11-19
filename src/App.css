@@ -1,0 +1,19 @@
+/* Warna teks utama */
+.text-brown {
+  color: #5a3e2b;
+}
+
+/* Tombol custom (lebih besar & bulat) */
+.btn-custom {
+  border-radius: 50px;
+  padding: 15px 40px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Efek hover */
+.btn-custom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

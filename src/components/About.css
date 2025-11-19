@@ -1,0 +1,84 @@
+.about-section {
+  padding: 4rem 0;
+  background: linear-gradient(to right, #fffbeb, #ffedd5); /* amber-100 to orange-100 */
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #78350f; /* text-amber-900 */
+  margin-bottom: 1.5rem;
+}
+
+.about-paragraph {
+  color: #92400e; /* text-amber-700 */
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.about-stats {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #92400e; /* text-amber-800 */
+}
+
+.stat-label {
+  color: #d97706; /* text-amber-600 */
+}
+
+.about-card-container {
+  text-align: center;
+}
+
+.about-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.about-emoji {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.about-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #92400e;
+  margin-bottom: 0.5rem;
+}
+
+.about-card-desc {
+  color: #d97706;
+}
